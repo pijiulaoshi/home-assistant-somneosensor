@@ -9,7 +9,7 @@ from homeassistant.const import (TEMP_CELSIUS, UNIT_PERCENTAGE)
 VERSION = "1.3"
 
 DEFAULT_NAME = "somneosensor"
-DEFAULT_HOST = "192.168.2.131"
+DEFAULT_HOST = "192.168.2.1"
 DEFAULT_PORT = 443
 DEFAULT_SENS = ["temperature", "humidity"]
 
