@@ -1,0 +1,8 @@
+{
+  "domain": "somneosensor",
+  "name": "Somneo Sensors",
+  "documentation": "",
+  "dependencies": [],
+  "codeowners": ["@pijiulaoshi"],
+  "requirements": []
+}
