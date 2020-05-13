@@ -13,13 +13,12 @@ Set-up:
 1. copy the somneosensor folder to your custom_components folder.
 2. add the following to your configuration.yaml:
 
-
 sensor:
-  - platform: somneosensor
-    host: <somneo_ip>
-    port: <somneo_port>  (default: 443, probably redundant setting)
-    display_options:
-      - temperature
-      - humidity
-      - light
-      - noise
+    - platform: somneosensor
+      host: <somneo_ip>
+      port: <somneo_port>  (default: 443, probably redundant setting)
+      display_options:
+        - temperature
+        - humidity
+        - light
+        - noise
