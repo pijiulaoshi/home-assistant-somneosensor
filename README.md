@@ -13,6 +13,7 @@ Set-up:
 1. copy the somneosensor folder to your custom_components folder.
 2. add the following to your configuration.yaml:
 
+```yaml
 sensor:
     - platform: somneosensor
       host: <somneo_ip>
@@ -22,3 +23,4 @@ sensor:
         - humidity
         - light
         - noise
+```
