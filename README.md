@@ -16,7 +16,8 @@ Set-up:
 sensor:
   - platform: somneosensor
     host: <somneo_ip>
-    port: <somneo_port>  ##Default: 443, probably the same for all Somneo devices
+    ##Default port = 443, probably the same for all Somneo devices
+    port: <somneo_port>  
     display_options:
       - temperature
       - humidity
